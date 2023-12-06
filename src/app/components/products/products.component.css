@@ -1,0 +1,154 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.brand-name {
+  color: #e88697;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+
+.product-name {
+  font-size: 16px;
+}
+
+.imgProduct {
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  width: 160px; 
+  height: 180px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card-product {
+  margin :auto;
+}
+
+.container-products {
+ margin-top: 40px;
+ width: 90%;
+ margin: auto;
+}
+
+.title-container {
+  margin: 20px 0px;
+  color: #3d3d3d;
+  font-size: 18px;
+}
+
+.container-card-product {
+  display: flex; flex-direction: row; flex-wrap: wrap; justify-content:flex-start;
+  height: max-content;
+  overflow: hidden;
+}
+
+.btnShowMore {
+  width: 100%; margin: 0px 20px;background-color: white; padding: 8px 12px; border: 1px solid #e88697; border-radius: 10px;
+}
+
+.web-products {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  
+  .btnShowMore  {
+    display: none;
+  }
+  
+  .brand-name {
+    font-size: 18px;
+  }
+
+  .product-name {
+    font-size: 20px;
+  }
+
+  .card-product {
+    margin: 20px 12px 12px 12px;
+  }
+  
+
+  .title-container {
+    margin: auto;
+    font-size: 24px;
+  }
+
+
+
+
+.container-products {
+  margin: 40px auto;
+  width: 90%;
+ }
+
+ .btnShowMore { 
+  margin: 0px 25px;
+ }
+ 
+
+ .container-card-product {
+  height: max-content;
+ }
+
+ .mobile-products {
+  display: none;
+ }
+
+
+ .web-products {
+  display: flex;
+ }
+
+}
+
+@media only screen and (min-width: 1024px) {
+  .product-name {
+    font-size: 16px;
+  }
+
+  .title-container {
+    font-size: 24px;
+  }
+
+   .card-product {
+    margin: 20px 12px 12px 12px;
+  }
+
+  
+}
+
+
+
+@media only screen and (min-width: 1280px) {
+
+  .container-products {
+    width: 89%;
+  }
+
+  .card-product {
+    margin: 20px 12px 12px 12px;
+  }
+
+  .container-card-product {
+   margin-top: 10px;
+   }
+  
+}

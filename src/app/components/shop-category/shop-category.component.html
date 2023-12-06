@@ -1,0 +1,22 @@
+<div class="container-shop-category">
+    <div  class="container-shop" >
+    <h4 class="title"> SHOP ASIAN INSPO </h4>
+    <div style="display: flex; flex-direction:row; ">
+    <div class="container-shop-left">
+        <div *ngFor="let shop of asianShopLeft" class="card-shop-left">
+            <div class="container-img">
+            </div>
+            <p class="desc-shop"> {{shop}} </p>
+        </div>
+    </div>
+    <div class="container-shop-right">
+        <div *ngFor="let shopRight of asianShopRight" style="margin-bottom: 10px; display: flex; height: 40px; width: 160px;  flex-direction: row; align-items: center; padding: 0px 0px; ">
+            <div class="container-img">
+            </div>
+            <p class="desc-shop"> {{shopRight}} </p>
+        </div>
+    </div>
+    </div>
+        
+</div>
+</div>

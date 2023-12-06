@@ -1,0 +1,73 @@
+.container-shop-category {
+    padding: 20px 0px;
+    background-color: #f9f9f9 ;
+    
+}
+
+.title {
+    color: #3d3d3d;
+    margin: 20px 0px;
+    font-size: 18px;
+}
+
+.container-img {
+    background-image: url('../../../assets/icon_star_pink.svg');
+    background-position: center;
+    background-size: cover;
+    height:  10px;
+    width: 10px;
+}
+
+.desc-shop {
+    margin: 0 10px; font-size: 22px; text-decoration: underline;
+    cursor: pointer;
+}
+
+.container-shop-right {
+    margin-left: 20px; 
+}
+
+.container-shop-left {
+    width: 400px;
+}
+
+.card-shop-left {
+    margin-bottom: 10px; display: flex; height: 40px; width: 160px;  flex-direction: row; align-items: center; padding: 0px 0px;
+}
+
+
+.container-shop {
+    width: 90%;
+    margin: auto;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .container-shop {
+       width: 89%;
+    }
+
+
+    .title {
+        font-size: 24px;
+    }
+
+    .desc-shop {
+       font-size: 25px;
+    }
+
+    .container-shop-right {
+        margin-left: 10px; 
+    }
+
+    .container-shop-left {
+        width: 300px;
+    }
+
+    .card-shop-left {
+        
+        width: 180px;
+    }
+    
+    
+}

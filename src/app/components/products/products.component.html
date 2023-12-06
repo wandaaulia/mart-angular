@@ -1,0 +1,34 @@
+
+<div class="container-products">
+  <h4 class="title-container"> CONCEALER BEST SELLERS </h4>
+
+  <div class='container-card-product mobile-products'>
+  <div *ngFor="let blush of blushsMobile" class="card-product" style=" width: 160px; display:flex; flex-direction: row; flex-wrap: wrap; justify-content:flex-start">
+    <div (click)="navigateTo(blush.id)" class="imgProduct" [ngStyle]="{'background-image': 'url(' + blush.image_link  + ')'}">
+      </div>
+      <span style="width: 100%; display: flex; flex-wrap: wrap; flex-direction: column;">
+        <h3 class="brand-name" style=" margin-bottom: 0;
+        "> {{blush.brand}} </h3>
+        <p class="product-name" style="height: 40px;"> {{blush.name}} </p>
+      </span>
+    </div> 
+  </div>
+
+  <div class='container-card-product web-products'>
+    <div *ngFor="let blush of blushsWeb" class="card-product" style=" width: 160px; display:flex; flex-direction: row; flex-wrap: wrap; justify-content:flex-start">
+      <div (click)="navigateTo(blush.id)" class="imgProduct" [ngStyle]="{'background-image': 'url(' + blush.image_link  + ')'}">
+        </div>
+        <span style="width: 100%; display: flex; flex-wrap: wrap; flex-direction: column;">
+          <h3 class="brand-name" style=" margin-bottom: 0;
+          "> {{blush.brand}} </h3>
+          <p class="product-name" style="height: 40px;"> {{blush.name}} </p>
+        </span>
+      </div> 
+    </div>
+
+</div>
+
+<div *ngIf="btnShowMore" style="margin-bottom: 10px;width: 100%; display: flex; justify-content: center;">
+  <button (click)="showMore()" class="btnShowMore"> Show More </button>
+</div>
+

@@ -1,0 +1,117 @@
+.newArrival {
+    margin: 40px auto 40px auto;
+    width: 90%;
+}
+
+
+.title {
+    color: #3d3d3d;
+    margin: 20px 0px;
+    font-size: 18px;
+}
+
+.bgImg-1  {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height : 140px;
+    width: 100%;
+    background-image: url('../../../assets/peripera-img.png');
+    border-radius: 5px;
+}
+
+.bgImg-2  {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height : 140px;
+    width: 100%;
+    background-image: url('../../../assets/Chainsaw.png');
+    border-radius: 5px;
+}
+
+
+.title-bgImg1 {
+    color: white; position: absolute; bottom: 10px; left: 20px;
+    font-size: 28px;
+}
+
+
+.container-banner {
+    display: flex; flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+   
+
+    .container-banner {
+       flex-direction: row;
+       justify-content: flex-start;
+    }
+
+
+.bgImg-1  {
+    width: 330px;
+    height: 160px;
+}
+
+.bgImg-2  {
+    width: 330px;
+    height: 160px;
+}
+
+.title {
+    font-size: 24px;
+}
+
+}
+
+@media only screen and (min-width: 820px) {
+
+.bgImg-1  {
+    width: 350px;
+}
+
+.bgImg-2  {
+    width: 350px;
+}
+
+}
+
+@media only screen and (min-width: 1024px) {
+  
+
+    .bgImg-1  {
+        width: 450px;
+        height: 200px;
+
+    }
+    
+    .bgImg-2  {
+        width: 450px;
+        height: 200px;
+
+    }
+
+
+}
+
+@media only screen and (min-width: 1280px) {
+    .newArrival {
+        width: 89%;
+    }
+
+    .bgImg-1  {
+        width: 560px;
+        height: 220px;
+    }
+    
+    .bgImg-2  {
+        width: 560px;
+        height: 220px;
+    }
+
+
+}

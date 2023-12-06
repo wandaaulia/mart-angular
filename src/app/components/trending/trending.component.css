@@ -1,0 +1,108 @@
+.trending {
+    margin: 40px auto 40px auto;
+    width: 90%;
+}
+
+.title {
+    color: #3d3d3d;
+    margin: 20px 0px;
+    font-size: 18px;
+}
+
+.card-trending {
+    width: 160px;
+}
+
+.img-trending {
+    background-image: url('../../../assets/Chainsaw.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.title-card {
+    margin-top: 10px;
+}
+
+.title-card h4 {
+    font-size: 13px;
+}
+
+.title-card p {
+    font-size: 16px;
+}
+
+.container-trending {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+@media only screen and (min-width: 390px) {
+    .card-trending {
+        width: 170px;
+    }
+    
+    .img-trending { 
+        width: 170px;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+
+.title {
+    font-size: 24px;
+}
+
+.container-trending {
+    justify-content: flex-start
+}
+
+.card-trending {
+   margin-right: 12px;
+}
+
+.card-trending {
+    width: 160px;
+}
+
+.img-trending { 
+    width: 160px;
+    height: 220px;
+}
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+    .card-trending {
+        width: 210px;
+        margin-right: 20px;
+
+    }
+    
+    .img-trending { 
+        width: 210px;
+        height: 250px;
+    }
+}
+
+
+@media only screen and (min-width: 1280px) {
+    .card-trending {
+        width: 268px;
+        margin-right: 20px;
+
+    }
+    
+    .img-trending { 
+        width: 268px;
+        height: 320px;
+    }
+}

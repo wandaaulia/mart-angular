@@ -1,0 +1,202 @@
+.promotion-banner-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.promotion-content {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+
+.promotion-content h2 {
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 0px 4px 8px #00000019 !important;
+    margin-bottom: 20px;
+}
+
+.shop-btn {
+    background-color: #f16647 !important;
+    color: #ffff;
+    border: none;
+    padding: 11px 55px;
+    border-radius: 5px;
+}
+
+.promotion-overlay {
+    position: absolute; 
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 34.54%, rgba(0, 0, 0, 0.15) 100%); 
+    width: 100%; 
+    height: 100%;
+    
+}
+
+
+.promotion-overlay-banner2 {
+    position: absolute; 
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 34.54%, rgba(0, 0, 0, 0.15) 100%); 
+    width: 100%; 
+    height: 100%;
+}
+
+.learn-more-btn {
+    background-color: #6fcecc;
+    color: #ffff;
+    border: none;
+    padding: 11px 55px;
+    border-radius: 5px;
+}
+
+.banner1-mobile {
+    display: block;
+}
+
+.banner1-web {
+    display: none;
+    width: 100%; position:relative; overflow: hidden; height: 300px
+
+}
+
+.banner2-mobile {
+    display: block;
+}
+
+
+
+.banner2-web {
+    display: none;
+    position:relative; width: 100%; overflow: hidden; height: 300px;
+}
+
+.banner1-web img {
+    width:100% ;height: 269px;
+}
+
+.banner2-web img {
+    width:100% ;height: 269px;
+}
+
+@media only screen and (min-width: 750px) {
+    .banner1-mobile {
+        display: none;
+    }
+
+    .banner1-web {
+        display: block;
+    }
+
+    .banner2-mobile {
+        display: none;
+    }
+
+    .banner2-web {
+        display: block;
+    }
+
+    .promotion-banner-container {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .banner1-web  {
+        height: 297px;
+        border-radius: 0 5px 5px 0;
+    }
+
+    .banner2-web  {
+       height: 297px;
+       border-radius: 0 0 5px 5px;
+    }
+
+    .banner1-web img {
+        width:100% ;height: 297px;
+    }
+    
+    .banner2-web img {
+        width:100% ;height:297px;
+    }
+}   
+
+
+
+
+@media only screen and (min-width: 1024px) {
+    .banner1-web {
+        height: 380px;
+    }
+
+    .banner1-web img {
+        width:100% ;height: 380px;
+    }
+
+    .banner2-web {
+        height: 380px;
+    }
+
+    .banner2-web img {
+        width:100% ;height: 380px;
+    }
+    
+    .promotion-content h2 {
+        font-size: 60px;
+    }
+
+    .promotion-content {
+        bottom: 45px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 1280px) {
+    .banner1-web {
+        height: 400px;
+    }
+
+    .banner1-web img {
+        width:100% ;height: 400px;
+    }
+
+    .banner2-web {
+        height:400px;
+    }
+
+    .banner2-web img {
+        width:100% ;height: 400px;
+    }
+    
+
+}
+
+
+@media only screen and (min-width: 1300px) {
+    .banner1-web {
+        height: 500px;
+        border-radius: 0 5px 5px 0;
+    }
+
+    .banner1-web img {
+        width:100% ;height: 500px;
+    }
+
+    .banner2-web {
+        height: 500px;
+        border-radius: 0 0 5px 5px;
+    }
+
+    .banner2-web img {
+        width:100% ;height: 500px;
+    }
+    
+
+}
+
